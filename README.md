@@ -1,16 +1,24 @@
-# Rmd + Zotero to Word workflow
+<p align="center">
+  <img src="./assets/utils/rmdtoword.png">
+</p>
 
-This repo is an operationalisation of the workflow described in https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/
+**This repository is an operationalisation of the workflow described in https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/**
 
-Supplementary features from G. Verhoeven workflow :
-- [x] added a bash script to
-	1. add a subtitle to the output document – this is useful for me to be able to navigate through the thousands of versions created);
-	2. change the location and name of the output document – instead of knitting and having N versions in the current working directory
-- [ ] add a copy-paste mini-bash script in github to (*avoid the installation process*) setup the whole environment, e.g., finding the right csl, giving a name to the .Rmd and .docx
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-# Target Audience
+- [📍 Target Audience](#-target-audience)
+- [🤔 Why this workflow ](#-why-this-workflow)
+- [💻 How to use this](#-how-to-use-this)
+- [🥥 Supplementary features from G. Verhoeven workflow :](#-supplementary-features-from-g-verhoeven-workflow-)
+- [🖋 License](#-license)
 
-As said in the previous link, this workflow is to "to set up a reproducible workflow for scientific writing with a focus on getting the journal citation hell right. It boils down to writing the manuscript in Rmarkdown, and using a set of auxiliary tools to manage citations and output to Word to share with collaborators and to prepare the final document for submission to the journal."
+<!-- TOC end -->
+
+# 📍 Target Audience
+
+As said in the previous link, this workflow allows to ...
+
+> set up a reproducible workflow for scientific writing with a focus on getting the journal citation hell right. It boils down to writing the manuscript in Rmarkdown, and using a set of auxiliary tools to manage citations and output to Word to share with collaborators and to prepare the final document for submission to the journal.
 
 You are : 
 - [ ] a *researcher* or a *student*
@@ -19,7 +27,7 @@ You are :
 - [ ] using *Zotero* for integrating references in your work
 - [ ] working with people reading your work in a *word* document
 
-# Why I am doing this 
+# 🤔 Why this workflow 
 
 The issues I have been dealing with on my first research paper that I want to avoid :
 
@@ -28,12 +36,12 @@ The issues I have been dealing with on my first research paper that I want to av
 - When your PI asks : "Do you remember the version where we used to do THIS analysis ?" – that's why I integrated a way to enter a subtitle before rendering to at least have a slight idea of what has been done on the current version
 - Loosing time on InkScape and Word to get the right position / legend on the doc (ughh...)
 
-# How to use this
+# 💻 How to use this
 
 - In your desired folder/directory, unzip/git clone (see below) this repository :
 
 ```
-git clone 
+git clone git@github.com:kennethrioja/rmdzoteroword_workflow.git
 ```
 
 - Once the repository is downloaded follow the steps from https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/ (see below the changes to be done to work with this repo) :
@@ -45,11 +53,10 @@ git clone
 		```
 		[auth.etal:lower:replace=.,_:postfix=_][>0][year]|[veryshorttitle][year]
 		```
-		
 		So that citation key is :
-			- 1 author : `@author1_yyyy`
-			- 2 authors : `@author1_author2_yyyy`
-			- 3+ authors : `@author1_etal_yyyy`
+		- 1 author : `@author1_yyyy`
+		- 2 authors : `@author1_author2_yyyy`
+		- 3+ authors : `@author1_etal_yyyy`
 
 	- 5 – install RStudio
 	- 6 – connect Zotero to RStudio
@@ -67,6 +74,12 @@ git clone
 
 - Thanks and feel free to contact me to improve the workflow !
 
-# License
+# 🥥 Supplementary features from G. Verhoeven workflow :
+- [x] added a bash script to
+	1. add a subtitle to the output document – this is useful for me to be able to navigate through the thousands of versions created);
+	2. change the location and name of the output document – instead of knitting and having N versions in the current working directory
+- [ ] add a copy-paste mini-bash script in github to (*avoid the installation process*) setup the whole environment, e.g., finding the right csl, giving a name to the .Rmd and .docx
+
+# 🖋 License
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
