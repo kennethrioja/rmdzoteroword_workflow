@@ -1,0 +1,136 @@
+[
+	{
+		"id": "green_bavelier_2003b",
+		"type": "article-journal",
+		"abstract": "As video-game playing has become a ubiquitous activity in today's society, it is worth considering its potential consequences on perceptual and motor skills. It is well known that exposing an organism to an altered visual environment often results in modification of the visual system of the organism. The field of perceptual learning provides many examples of training-induced increases in performance. But perceptual learning, when it occurs, tends to be specific to the trained task; that is, generalization to new tasks is rarely found1,2,3,4,5,6,7,8,9,10. Here we show, by contrast, that action-video-game playing is capable of altering a range of visual skills. Four experiments establish changes in different aspects of visual attention in habitual video-game players as compared with non-video-game players. In a fifth experiment, non-players trained on an action video game show marked improvement from their pre-training abilities, thereby establishing the role of playing in this effect.",
+		"container-title": "Nature",
+		"DOI": "10.1038/nature01647",
+		"ISSN": "1476-4687",
+		"issue": "6939",
+		"language": "en",
+		"license": "2003 Macmillan Magazines Ltd.",
+		"note": "number: 6939\npublisher: Nature Publishing Group",
+		"page": "534-537",
+		"source": "www.nature.com",
+		"title": "Action video game modifies visual selective attention",
+		"URL": "https://www.nature.com/articles/nature01647",
+		"volume": "423",
+		"author": [
+			{
+				"family": "Green",
+				"given": "C. Shawn"
+			},
+			{
+				"family": "Bavelier",
+				"given": "Daphne"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2003",
+					5
+				]
+			]
+		}
+	},
+	{
+		"id": "gall_1985",
+		"type": "article-journal",
+		"container-title": "Review of Research in Education",
+		"DOI": "10.3102/0091732X012001055",
+		"ISSN": "0091-732X",
+		"issue": "1",
+		"language": "en",
+		"note": "publisher: American Educational Research Association",
+		"page": "55-90",
+		"source": "SAGE Journals",
+		"title": "Chapter 2: Help-Seeking Behavior in Learning",
+		"title-short": "Chapter 2",
+		"URL": "https://doi.org/10.3102/0091732X012001055",
+		"volume": "12",
+		"author": [
+			{
+				"family": "Gall",
+				"given": "Sharon Nelson-Le"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"1985",
+					1,
+					1
+				]
+			]
+		}
+	},
+	{
+		"id": "rioja_etal_2023b",
+		"type": "article-journal",
+		"abstract": "A negative link between media multitasking and sustained attention has been proposed; yet, whether such a link exists remains hotly debated as previous studies found mixed effects. The present study seeks to evaluate the size of this effect taking into account possible variations due to how media multitasking is measured, how sustained attention is assessed, and the origin of the samples. Using an established and a novel, shortened measure for media multitasking, 924 participants were recruited through three different platforms (Amazon Mechanical Turk, Prolific, and university students). In addition to questionnaire- and task-based assessments for sustained attention, impulsivity and sensation seeking were also assessed to further qualify behavioral problems associated with media multitasking. The findings establish a negative link between media multitasking and sustained attention of a medium effect size, whether questionnaires (r = .20) or a task-based measure (r = .21) are used. Importantly, the findings support the notion that previous differences across studies can be at least partly attributed to the choice of media multitasking measure as well as differences across samples.",
+		"container-title": "Technology, Mind, and Behavior",
+		"DOI": "10.1037/tmb0000106",
+		"ISSN": "2689-0208,",
+		"issue": "2: Summer 2023",
+		"language": "en",
+		"source": "tmb.apaopen.org",
+		"title": "Unraveling the Link Between Media Multitasking and Attention Across Three Samples",
+		"URL": "https://tmb.apaopen.org/pub/tmb0000106/release/1",
+		"volume": "4",
+		"author": [
+			{
+				"family": "Rioja",
+				"given": "Kenneth"
+			},
+			{
+				"family": "Cekic",
+				"given": "Sezen"
+			},
+			{
+				"family": "Bavelier",
+				"given": "Daphne"
+			},
+			{
+				"family": "Baumgartner",
+				"given": "Susanne E."
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					25
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					7,
+					1
+				]
+			]
+		}
+	}
+]

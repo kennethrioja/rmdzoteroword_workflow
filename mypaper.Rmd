@@ -1,0 +1,79 @@
+---
+title: "My Long Title"
+subtitle: "`r params$doc_subtitle`"
+author: "Kenneth Rioja"
+date: "`r Sys.Date()`"
+output:
+  word_document:
+    reference_docx: assets/utils/doc_style.docx
+bibliography: "`r rbbt::bbt_write_bib('assets/utils/bibliography.json', overwrite = TRUE)`" 
+csl: assets/utils/citation_style.csl
+
+params:
+  doc_subtitle: ""
+
+---
+
+```{r setup, include=FALSE}
+## Link RStudio to Zotero (step 6) : https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/
+# remotes::install_github("paleolimbot/rbbt") # install it once for citation
+
+## clear workspace
+rm(list=ls())
+
+## Seed for random number generation
+set.seed(42)
+
+## Load packages
+# install.packages("pacman")
+library(pacman)
+# pacman::p_load(
+#   # insert packages' name here
+# )
+
+## Set working directory to current folder
+# setwd(dirname(rstudioapi::getSourceEditorContext()$path)) # this needs to be commented for 'render_script_mac.command' to work
+
+## Load environment or read .csv files
+# load("mydata.RData")
+# df <- read.csv("assets/data/mydata.csv")
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+# Introduction
+
+To cite using the repository citation style :
+
+1 author : @gall_1985,
+
+2 authors : @green_bavelier_2003a),
+
+3+ authors : @rioja_etal_2023
+
+# References
+
+<div id="refs"></div>
+
+# Appendix
+
+This will be Appendix A.
