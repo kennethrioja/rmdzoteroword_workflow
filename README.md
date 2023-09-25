@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/utils/rmdtoword.png">
+  <img src="./assets/utils/rmdtoword.png" width=400px>
 </p>
 
 **This repository is an operationalisation of the workflow described in https://gsverhoeven.github.io/post/zotero-rmarkdown-csl/**
