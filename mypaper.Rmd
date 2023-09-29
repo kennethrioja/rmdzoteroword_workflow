@@ -60,7 +60,7 @@ plot(pressure)
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-# Introduction
+# Heading 1 
 
 To cite using the repository citation style :
 
@@ -69,6 +69,41 @@ To cite using the repository citation style :
 2 authors : @green_bavelier_2003a),
 
 3+ authors : @rioja_etal_2023
+
+# Introduction
+
+<!-- Establish a territory : claim centrality, make topic generalizations, review items of previous research -->
+In the past decade much research has been focused on ...
+
+<!-- Establishing a niche : counter-claiming; indicating a gap, question raison, continuing a tradition -->
+It remains unclear why ...
+
+<!-- Occupying the niche : outlining purposes, announcing the present research, announcing principal findings, indicating structure -->
+The purpose of this study was to ...
+
+## Litterature review
+
+# Methods
+
+<!-- Process of data collection and techniques of data analysis -->
+The data used for this study were ...
+
+# Results
+
+# Discussion
+
+<!-- Introduction : review findings, discuss outcomes, stake a claim -->
+The findings of this Masters' thesis clearly show that ...
+
+<!-- Evaluation: analyze, offer explanations, reference the literature, state implications -->
+One explanation for ...
+
+<!-- Conclusion : limitations, recommandations -->
+This study was limited by ...
+
+# Conclusion
+
+# Acknowledgements
 
 # References
 
