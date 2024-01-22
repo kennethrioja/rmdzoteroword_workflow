@@ -74,6 +74,8 @@ git clone git@github.com:kennethrioja/rmdzoteroword_workflow.git
 
 - Thanks and feel free to contact me to improve the workflow !
 
+- NOTE : during knitting, if this error message appears "Error in `result$result[[3]]`", here is the solution : https://github.com/paleolimbot/rbbt/issues/47 -> uninstall better bibtex for zotero in Zotero, and reinstall by using this .xpi https://github.com/retorquere/zotero-better-bibtex/releases/tag/v6.7.140, do not forget to disable automatic updates.
+
 # 🥥 Supplementary features from G. Verhoeven workflow :
 - [x] added a bash script to
 	1. add a subtitle to the output document – this is useful for me to be able to navigate through the thousands of versions created);
